@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="description" content="Meu Portfólio">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe</title>
+</head>
+
+<body>
+    <header>
+        <h1>Honkai: Star Rail</h1>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div id="validador">
+                <h2>Você gosta da nova personagem Robin?</h2>
+                <input type="radio" name="cor" value="verde">
+                <label for="verde">Sim</label><br>
+                <input type="radio" name="cor" value="vermelho">
+                <label for="vermelho">Não</label><br>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <article id="home_texto">
+                <h4>Bem vindo ao universo de Honkai Star Rail</h4>
+                <p> Honkai: Star Rail é um jogo de RPG gacha 3D que  se passa em um universo no qual a humanidade adora
+                    a seres divinos, os Aeons, e luta para afastar uma força corruptora generalizada. O personagem do jogador
+                    desperta sem memória a bordo de uma estação espacial, descobrindo mais tarde que está possuído por uma entidade
+                    cósmica maléfica, o Stellaron. Eles se juntam a uma equipe de aventureiros viajantes, percorrendo diferentes mundos
+                    a bordo de um trem espacial.</p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <article id="redes_sociais">
+                <h4>Contact Me</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quod error veniam in voluptatem magni quisquam</p>
+
+                <div id="icones_redes_sociais">
+                    <a href="">
+                        <img src="https://img.icons8.com/?size=256&id=447&format=png" alt="LinkedIn" />
+                    </a>
+                    <a href="">
+                        <img src="https://img.icons8.com/?size=256&id=32292&format=png" alt="Instagram" />
+                    </a>
+                </div>
+            </article>
+
+            <form action="" method="POST">
+                <input type="hidden" name="_next" value="">
+                <input type="hidden" name="_captcha" value="false">
+
+                <label for="nome"><strong>Nome: </strong></label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject"><strong>Assunto: </strong></label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message"><strong>Mensagem: </strong></label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>       
+        <p> Feito por Jhulieny - Testando Front-End na Generation &copy;</p>
+    </footer>
+</body>
+
+</html>
