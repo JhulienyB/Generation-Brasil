@@ -1,0 +1,228 @@
+:root{
+    --yellow: #F9F871;
+    --blue: #89D3EF;
+    --green: #BCFB92;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+    font-size: 1em; line-height: 1.5em;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 15px 60px;
+	transition: 0.2s all;
+}
+
+button:hover{
+	font-weight: bolder;
+	font-size: 17px;
+}
+
+header{
+    background-color: var(--yellow); 
+    color: var(--blue);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+header h1{
+    font-weight: bold;
+}
+
+.menu-principal ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.menu-principal a{
+	margin: 3vh;
+	cursor: pointer;
+	color: var(--blue);
+	transition: 0.2s all;
+}
+
+.menu-principal a:hover{
+	font-weight: bolder;
+	color: slategrey;
+	font-size: 17px;
+}
+
+
+/*----------------------HOME----------------------*/
+
+.home{
+    background-color: var(--blue);
+    display: flex;
+    height: 100vh;
+    padding: 0 20%;
+    align-items: center;
+}
+
+.introducao{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.introducao h2{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.introducao h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+} 
+
+.introducao p{
+    margin: 10px;
+}
+
+.introducao button{
+    background-color: var(--yellow);
+    color: var(--blue);
+}
+
+.introducao button:hover{
+	color: slategrey;
+}
+
+.img-home{
+    width: 50%;
+    height: 50%;
+}
+
+/*----------------------SOBRE----------------------*/
+.sobre{
+    background-color: var(--yellow);
+    height: 100vh;
+    padding: 0 10%;
+    align-items: center;
+    display: flex;
+}
+
+.foto{
+    width: 50%;
+}
+
+.foto img{
+    width: 90%;
+    border-radius: 50%;
+    border: 5px solid #89D3EF;
+}
+
+.quem{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.quem h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.quem p{
+    margin: 10px;
+}
+
+.dados-git{
+    display: flex;
+    align-items: center;
+}
+
+.dados-git button{
+    background-color: var(--blue);
+    color: white;
+}
+
+.dados-git button:hover{
+	color: var(--yellow);
+}
+
+/*----------------------CONTATO----------------------*/
+
+.contato{
+    background-color: var(--blue);
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.convite{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.convite h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.convite p{
+    margin: 10px;
+    text-align: left;
+}
+
+.redes_sociais img{
+    width: 25%;
+    margin: 0 10px;
+}
+
+.formulario{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea{
+    margin: 10px 0;
+    width:  380px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+textarea{
+    height: 70px;
+}
+
+.formulario button{
+    margin-left: 0;
+    background-color: var(--yellow);
+    color: var(--blue);
+    width: 380px;
+}
+
+.formulario button:hover{
+	color: slategrey;
+}
+
+footer{
+    background-color: var(--yellow); 
+    color: var(--blue);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
